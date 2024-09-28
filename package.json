@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start":"serve -s dist"
   },
   "dependencies": {
     "axios": "^1.7.7",
@@ -15,11 +16,10 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
-    "serve": "^14.2.3",
-    "start":"npx serve -s"
+    "serve": "^14.2.3"
+    
 
   },
-
   "devDependencies": {
     "@eslint/js": "^9.9.0",
     "@types/react": "^18.3.3",
